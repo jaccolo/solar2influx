@@ -30,10 +30,10 @@ Optional environment variables for debugging:
 ## Build the container image
 
 ```
-docker build -t solar2influx:1.0.0 .
+docker build -t solar2influx:1.0.1 .
 ```
 
-or [download from Dockerhub](https://hub.docker.com/r/jaccol/p1toinflux).  
+or [download from Dockerhub](https://hub.docker.com/r/jaccol/solar2influx).  
 
 ### Cross-platform building
 
@@ -64,7 +64,7 @@ P1METER_HOSTNAME=solar.mydomain
 
 Execute the container with:
 ```
-docker run -d --env-file envfile solar2influx:1.0.0
+docker run -d --env-file envfile solar2influx:1.0.1
 ```
 
 ## Python requirements
