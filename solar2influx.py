@@ -107,7 +107,7 @@ def main():
 
     while True:
         
-        ret = os.system(f"ping -o -c 3 -W 3000 {inverterhost} >/dev/null 2>&1")
+        ret = os.system(f"ping -c 3 -W 3000 {inverterhost} >/dev/null 2>&1")
         if ret == 0:
             try:
                 inverterdata = asyncio.run(get_runtime_data(inverterhost))
