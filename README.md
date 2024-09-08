@@ -54,7 +54,7 @@ Example *envfile*:
 INFLUXDB_HOSTNAME=influxdb.mydomain
 INFLUXDB_TOKEN=ThisTokenIsGeneratedAtTheInfluxDBhostAndGivesWriteAccessToTheBucketToStoreSolarData
 INFLUXDB_ORG=Home
-P1METER_HOSTNAME=solar.mydomain
+INVERTER_HOSTNAME=solar.mydomain
 # Optional variables
 #INFLUXDB_PORT=8086
 #INFLUXDB_BUCKET=solar
